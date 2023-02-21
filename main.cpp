@@ -56,8 +56,8 @@ void loop() {
          digitalWrite(lewy45,LOW);
          digitalWrite(prawy49,LOW);
          digitalWrite(prawy51,LOW);
-        break;// gdy wyślemy 2 Arduino ustawi stan niski na pinie 8
-       // gdy wyślemy 2 Arduino ustawi stan niski na pinie 13
+        break;
+        
         default : break;
       }
       Serial.println(odczyt);
